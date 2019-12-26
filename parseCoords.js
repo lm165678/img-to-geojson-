@@ -27,7 +27,7 @@ function ParseDMS(coords) {
 			type: 'point',
 			coordinates: [parsedLat, parsedLong],
 			properties: {
-				name: coords.name
+				name: coords.name.replace('heic', 'jpg')
 			}
 		}
 	}
