@@ -1,0 +1,30 @@
+[
+	{
+		"geometry": {
+			"type": "point",
+			"coordinates": [37.80277777777778, -122.98805555555556],
+			"properties": { "name": "test0.heic" }
+		}
+	},
+	{
+		"geometry": {
+			"type": "point",
+			"coordinates": [-9.60888888888889, 115.53083333333333],
+			"properties": { "name": "test1.heic" }
+		}
+	},
+	{
+		"geometry": {
+			"type": "point",
+			"coordinates": [34.55166666666667, -117.0975],
+			"properties": { "name": "test2.heic" }
+		}
+	},
+	{
+		"geometry": {
+			"type": "point",
+			"coordinates": [33.94361111111111, -117.83111111111111],
+			"properties": { "name": "test3.heic" }
+		}
+	}
+]
