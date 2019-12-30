@@ -1,7 +1,7 @@
 [{
   "image": {
     "name": null,
-    "baseName": "test - 1.heic",
+    "baseName": "test-1.heic",
     "format": "HEIC",
     "formatDescription": "HEIC",
     "mimeType": "image/x-heic",
@@ -109,12 +109,12 @@
     "dispose": "Undefined",
     "iterations": 0,
     "scene": 0,
-    "scenes": 4,
+    "scenes": 3,
     "compression": "Undefined",
     "orientation": "TopLeft",
     "properties": {
-      "date:create": "2019-12-26T04:35:30+00:00",
-      "date:modify": "2019-12-26T04:30:50+00:00",
+      "date:create": "2019-12-30T03:37:06+00:00",
+      "date:modify": "2019-12-30T01:04:27+00:00",
       "exif:ApertureValue": "54823/32325",
       "exif:BrightnessValue": "111389/9592",
       "exif:ColorSpace": "65535",
@@ -158,11 +158,9 @@
       "exif:OffsetTime": "-08:00",
       "exif:OffsetTimeDigitized": "-08:00",
       "exif:OffsetTimeOriginal": "-08:00",
-      "exif:Orientation": "1",
       "exif:PhotographicSensitivity": "25",
       "exif:PixelXDimension": "4032",
       "exif:PixelYDimension": "3024",
-      "exif:ResolutionUnit": "2",
       "exif:SceneCaptureType": "0",
       "exif:SceneType": "1",
       "exif:SensingMethod": "2",
@@ -172,9 +170,7 @@
       "exif:SubSecTimeDigitized": "162",
       "exif:SubSecTimeOriginal": "162",
       "exif:WhiteBalance": "0",
-      "exif:XResolution": "72/1",
       "exif:YCbCrPositioning": "1",
-      "exif:YResolution": "72/1",
       "icc:copyright": "Copyright Apple Inc., 2017",
       "icc:description": "Display P3",
       "signature": "4737b88f70d9b97cbea9104f40e7b45ca8018fc8324c391b647517b424804aeb"
@@ -190,17 +186,17 @@
     "tainted": false,
     "filesize": "1017540B",
     "numberPixels": "12.1928M",
-    "pixelsPerSecond": "8.94163MB",
-    "userTime": "7.850u",
-    "elapsedTime": "0:02.363",
-    "version": "/usr/local/Cellar/imagemagick/7.0.9-10/share/doc/ImageMagick-7//index.html"
+    "pixelsPerSecond": "12.1947MB",
+    "userTime": "5.430u",
+    "elapsedTime": "0:01.999",
+    "version": "/usr/local/Cellar/imagemagick/7.0.9-12/share/doc/ImageMagick-7//index.html"
   }
 }
 ,
 {
   "image": {
     "name": "json:",
-    "baseName": "test - 2.heic",
+    "baseName": "test-2.heic",
     "format": "HEIC",
     "formatDescription": "HEIC",
     "mimeType": "image/x-heic",
@@ -308,12 +304,12 @@
     "dispose": "Undefined",
     "iterations": 0,
     "scene": 1,
-    "scenes": 4,
+    "scenes": 3,
     "compression": "Undefined",
     "orientation": "TopLeft",
     "properties": {
-      "date:create": "2019-12-26T04:35:30+00:00",
-      "date:modify": "2019-12-26T04:30:50+00:00",
+      "date:create": "2019-12-30T03:37:06+00:00",
+      "date:modify": "2019-12-30T01:04:27+00:00",
       "exif:ApertureValue": "54823/32325",
       "exif:BrightnessValue": "8729/12919",
       "exif:ColorSpace": "65535",
@@ -357,11 +353,9 @@
       "exif:OffsetTime": "-08:00",
       "exif:OffsetTimeDigitized": "-08:00",
       "exif:OffsetTimeOriginal": "-08:00",
-      "exif:Orientation": "6",
       "exif:PhotographicSensitivity": "100",
       "exif:PixelXDimension": "4032",
       "exif:PixelYDimension": "3024",
-      "exif:ResolutionUnit": "2",
       "exif:SceneCaptureType": "0",
       "exif:SceneType": "1",
       "exif:SensingMethod": "2",
@@ -371,9 +365,7 @@
       "exif:SubSecTimeDigitized": "053",
       "exif:SubSecTimeOriginal": "053",
       "exif:WhiteBalance": "0",
-      "exif:XResolution": "72/1",
       "exif:YCbCrPositioning": "1",
-      "exif:YResolution": "72/1",
       "icc:copyright": "Copyright Apple Inc., 2017",
       "icc:description": "Display P3",
       "signature": "815db2e1a0198f095fe88c09456c103bfecfcf1c9f207d3133ae2ae232608726"
@@ -389,217 +381,17 @@
     "tainted": false,
     "filesize": "1017540B",
     "numberPixels": "12.1928M",
-    "pixelsPerSecond": "4.49481MB",
-    "userTime": "8.180u",
-    "elapsedTime": "0:03.712",
-    "version": "/usr/local/Cellar/imagemagick/7.0.9-10/share/doc/ImageMagick-7//index.html"
+    "pixelsPerSecond": "5.24416MB",
+    "userTime": "5.890u",
+    "elapsedTime": "0:03.325",
+    "version": "/usr/local/Cellar/imagemagick/7.0.9-12/share/doc/ImageMagick-7//index.html"
   }
 }
 ,
 {
   "image": {
     "name": "json:",
-    "baseName": "test - 3.heic",
-    "format": "HEIC",
-    "formatDescription": "HEIC",
-    "mimeType": "image/x-heic",
-    "class": "DirectClass",
-    "geometry": {
-      "width": 3024,
-      "height": 4032,
-      "x": 0,
-      "y": 0
-    },
-    "resolution": {
-      "x": 72,
-      "y": 72
-    },
-    "printSize": {
-      "x": 42,
-      "y": 56
-    },
-    "units": "PixelsPerInch",
-    "type": "TrueColor",
-    "baseType": "Undefined",
-    "endianess": "Undefined",
-    "colorspace": "YCbCr",
-    "depth": 8,
-    "baseDepth": 8,
-    "channelDepth": {
-      "red": 8,
-      "green": 8,
-      "blue": 1
-    },
-    "pixels": 36578304,
-    "imageStatistics": {
-      "Overall": {
-        "min": 0,
-        "max": 255,
-        "mean": 127.516,
-        "standardDeviation": 7475.56,
-        "kurtosis": 2.41928,
-        "skewness": 0.692512,
-        "entropy": 0.825617
-      }
-    },
-    "channelStatistics": {
-      "Red": {
-        "min": 0,
-        "max": 255,
-        "mean": 132.361,
-        "standardDeviation": 15076.1,
-        "kurtosis": -0.70537,
-        "skewness": 0.323211,
-        "entropy": 0.930524
-      },
-      "Green": {
-        "min": 54,
-        "max": 185,
-        "mean": 116.263,
-        "standardDeviation": 4488.91,
-        "kurtosis": 0.218851,
-        "skewness": -0.822568,
-        "entropy": 0.780232
-      },
-      "Blue": {
-        "min": 98,
-        "max": 187,
-        "mean": 133.922,
-        "standardDeviation": 2861.68,
-        "kurtosis": 0.742819,
-        "skewness": 1.13305,
-        "entropy": 0.766094
-      }
-    },
-    "renderingIntent": "Perceptual",
-    "gamma": 0.454545,
-    "chromaticity": {
-      "redPrimary": {
-        "x": 0.64,
-        "y": 0.33
-      },
-      "greenPrimary": {
-        "x": 0.3,
-        "y": 0.6
-      },
-      "bluePrimary": {
-        "x": 0.15,
-        "y": 0.06
-      },
-      "whitePrimary": {
-        "x": 0.3127,
-        "y": 0.329
-      }
-    },
-    "matteColor": "#BDBDBD",
-    "backgroundColor": "#FFFFFF",
-    "borderColor": "#DFDFDF",
-    "transparentColor": "#00000000",
-    "interlace": "None",
-    "intensity": "Undefined",
-    "compose": "Over",
-    "pageGeometry": {
-      "width": 3024,
-      "height": 4032,
-      "x": 0,
-      "y": 0
-    },
-    "dispose": "Undefined",
-    "iterations": 0,
-    "scene": 2,
-    "scenes": 4,
-    "compression": "Undefined",
-    "orientation": "TopLeft",
-    "properties": {
-      "date:create": "2019-12-26T04:35:30+00:00",
-      "date:modify": "2019-12-26T04:30:50+00:00",
-      "exif:ApertureValue": "54823/32325",
-      "exif:BrightnessValue": "110518/11823",
-      "exif:ColorSpace": "65535",
-      "exif:ComponentsConfiguration": "1, 2, 3, 0",
-      "exif:CustomRendered": "2",
-      "exif:DateTime": "2019:12:09 13:48:12",
-      "exif:DateTimeDigitized": "2019:12:09 13:48:12",
-      "exif:DateTimeOriginal": "2019:12:09 13:48:12",
-      "exif:ExifOffset": "206",
-      "exif:ExifVersion": "48, 50, 51, 49",
-      "exif:ExposureBiasValue": "20501/19891",
-      "exif:ExposureMode": "0",
-      "exif:ExposureProgram": "2",
-      "exif:ExposureTime": "1/665",
-      "exif:Flash": "24",
-      "exif:FlashPixVersion": "48, 49, 48, 48",
-      "exif:FNumber": "9/5",
-      "exif:FocalLength": "399/100",
-      "exif:FocalLengthIn35mmFilm": "28",
-      "exif:GPSAltitude": "117769/5090",
-      "exif:GPSAltitudeRef": "0",
-      "exif:GPSDateStamp": "2019:12:09",
-      "exif:GPSDestBearing": "263405/3362",
-      "exif:GPSDestBearingRef": "T",
-      "exif:GPSHPositioningError": "12/1",
-      "exif:GPSImgDirection": "263405/3362",
-      "exif:GPSImgDirectionRef": "T",
-      "exif:GPSInfo": "1944",
-      "exif:GPSLatitude": "37/1, 22/1, 1562/100",
-      "exif:GPSLatitudeRef": "N",
-      "exif:GPSLongitude": "122/1, 0/1, 3598/100",
-      "exif:GPSLongitudeRef": "W",
-      "exif:GPSSpeed": "21535/150871",
-      "exif:GPSSpeedRef": "K",
-      "exif:LensMake": "Apple",
-      "exif:LensModel": "iPhone 7 back camera 3.99mm f/1.8",
-      "exif:LensSpecification": "399/100, 399/100, 9/5, 9/5",
-      "exif:Make": "Apple",
-      "exif:MakerNote": "65, 112, 112, 108, 101, 32, 105, 79, 83, 0, 0, 1, 77, 77, 0, 24, 0, 1, 0, 9, 0, 0, 0, 1, 0, 0, 0, 11, 0, 2, 0, 7, 0, 0, 2, 46, 0, 0, 1, 52, 0, 3, 0, 7, 0, 0, 0, 104, 0, 0, 3, 98, 0, 4, 0, 9, 0, 0, 0, 1, 0, 0, 0, 0, 0, 5, 0, 9, 0, 0, 0, 1, 0, 0, 0, 178, 0, 6, 0, 9, 0, 0, 0, 1, 0, 0, 1, 27, 0, 7, 0, 9, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 0, 10, 0, 0, 0, 3, 0, 0, 3, 202, 0, 10, 0, 9, 0, 0, 0, 1, 0, 0, 0, 2, 0, 12, 0, 10, 0, 0, 0, 2, 0, 0, 3, 226, 0, 13, 0, 9, 0, 0, 0, 1, 0, 0, 0, 41, 0, 14, 0, 9, 0, 0, 0, 1, 0, 0, 0, 4, 0, 15, 0, 9, 0, 0, 0, 1, 0, 0, 0, 5, 0, 16, 0, 9, 0, 0, 0, 1, 0, 0, 0, 1, 0, 20, 0, 9, 0, 0, 0, 1, 0, 0, 0, 3, 0, 23, 0, 9, 0, 0, 0, 1, 0, 0, 0, 0, 0, 25, 0, 9, 0, 0, 0, 1, 0, 0, 0, 2, 0, 26, 0, 2, 0, 0, 0, 6, 0, 0, 3, 242, 0, 31, 0, 9, 0, 0, 0, 1, 0, 0, 0, 0, 0, 32, 0, 2, 0, 0, 0, 37, 0, 0, 3, 248, 0, 37, 0, 9, 0, 0, 0, 1, 0, 0, 0, 0, 0, 38, 0, 9, 0, 0, 0, 1, 0, 0, 0, 0, 0, 39, 0, 10, 0, 0, 0, 1, 0, 0, 4, 30, 0, 43, 0, 2, 0, 0, 0, 37, 0, 0, 4, 38, 0, 0, 0, 0, 98, 112, 108, 105, 115, 116, 48, 48, 79, 17, 2, 0, 231, 4, 251, 4, 214, 4, 45, 4, 117, 1, 224, 0, 167, 0, 124, 0, 53, 0, 75, 0, 206, 0, 198, 0, 184, 0, 192, 0, 194, 0, 194, 0, 234, 4, 253, 4, 247, 4, 101, 3, 250, 0, 213, 0, 153, 0, 76, 0, 31, 0, 70, 0, 160, 0, 189, 0, 192, 0, 189, 0, 194, 0, 199, 0, 233, 4, 250, 4, 3, 5, 116, 3, 56, 1, 216, 0, 94, 0, 69, 0, 50, 0, 78, 0, 156, 0, 185, 0, 193, 0, 196, 0, 200, 0, 193, 0, 236, 4, 250, 4, 251, 4, 240, 4, 87, 3, 227, 0, 128, 0, 107, 0, 79, 0, 77, 0, 180, 0, 185, 0, 200, 0, 202, 0, 197, 0, 192, 0, 233, 4, 239, 4, 235, 4, 114, 4, 174, 4, 81, 1, 124, 0, 85, 0, 66, 0, 92, 0, 190, 0, 189, 0, 199, 0, 199, 0, 169, 0, 170, 0, 225, 4, 235, 4, 219, 4, 67, 4, 207, 4, 58, 3, 93, 0, 60, 0, 85, 0, 106, 0, 199, 0, 187, 0, 199, 0, 199, 0, 187, 0, 177, 0, 196, 4, 235, 4, 222, 4, 97, 4, 22, 4, 221, 3, 126, 1, 106, 0, 85, 0, 124, 0, 182, 0, 190, 0, 200, 0, 194, 0, 200, 0, 177, 0, 174, 4, 237, 4, 219, 4, 92, 3, 159, 2, 151, 1, 182, 1, 189, 0, 65, 0, 113, 0, 178, 0, 191, 0, 204, 0, 197, 0, 196, 0, 192, 0, 202, 4, 238, 4, 213, 2, 166, 1, 76, 1, 28, 1, 3, 1, 178, 0, 62, 0, 130, 0, 178, 0, 201, 0, 213, 0, 204, 0, 198, 0, 186, 0, 231, 4, 113, 4, 58, 2, 24, 1, 210, 0, 178, 0, 194, 0, 155, 0, 110, 0, 247, 0, 210, 0, 210, 0, 202, 0, 202, 0, 193, 0, 188, 0, 20, 3, 78, 2, 64, 1, 24, 1, 40, 1, 188, 0, 196, 0, 140, 0, 107, 0, 107, 0, 179, 0, 14, 1, 200, 0, 193, 0, 204, 0, 177, 0, 89, 1, 46, 1, 14, 1, 31, 1, 216, 0, 222, 0, 176, 0, 149, 0, 65, 0, 89, 0, 152, 0, 77, 1, 208, 0, 193, 0, 188, 0, 186, 0, 72, 1, 32, 1, 0, 1, 1, 1, 249, 0, 227, 0, 145, 0, 141, 0, 114, 0, 113, 0, 130, 0, 79, 1, 241, 0, 192, 0, 182, 0, 186, 0, 68, 1, 23, 1, 208, 0, 229, 0, 204, 0, 148, 0, 115, 0, 117, 0, 86, 0, 80, 0, 76, 0, 215, 0, 18, 1, 197, 0, 187, 0, 177, 0, 11, 1, 238, 0, 62, 1, 188, 0, 143, 0, 159, 0, 210, 0, 45, 1, 84, 0, 113, 0, 69, 0, 109, 0, 28, 1, 233, 0, 195, 0, 186, 0, 22, 1, 242, 0, 255, 0, 250, 0, 182, 0, 217, 0, 191, 1, 68, 1, 121, 0, 124, 0, 131, 0, 95, 0, 246, 0, 242, 0, 193, 0, 190, 0, 0, 8, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12, 98, 112, 108, 105, 115, 116, 48, 48, 212, 1, 2, 3, 4, 5, 6, 7, 8, 85, 102, 108, 97, 103, 115, 85, 118, 97, 108, 117, 101, 89, 116, 105, 109, 101, 115, 99, 97, 108, 101, 85, 101, 112, 111, 99, 104, 16, 1, 19, 0, 1, 1, 198, 94, 67, 65, 62, 18, 59, 154, 202, 0, 16, 0, 8, 17, 23, 29, 39, 45, 47, 56, 61, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 255, 255, 247, 191, 0, 1, 89, 179, 255, 255, 184, 7, 0, 0, 72, 106, 0, 0, 34, 236, 0, 1, 113, 245, 0, 0, 0, 103, 0, 0, 0, 128, 0, 0, 0, 245, 0, 0, 1, 0, 113, 56, 50, 53, 115, 0, 67, 66, 49, 56, 55, 49, 52, 66, 45, 69, 70, 67, 48, 45, 52, 66, 65, 67, 45, 65, 53, 66, 57, 45, 48, 51, 53, 57, 65, 68, 66, 70, 52, 53, 54, 69, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 50, 68, 49, 69, 53, 48, 57, 66, 45, 57, 50, 48, 52, 45, 52, 65, 54, 52, 45, 56, 48, 51, 56, 45, 51, 68, 57, 55, 55, 67, 48, 51, 53, 68, 55, 52, 0, 0",
-      "exif:MeteringMode": "3",
-      "exif:Model": "iPhone 7",
-      "exif:OffsetTime": "-08:00",
-      "exif:OffsetTimeDigitized": "-08:00",
-      "exif:OffsetTimeOriginal": "-08:00",
-      "exif:Orientation": "6",
-      "exif:PhotographicSensitivity": "20",
-      "exif:PixelXDimension": "4032",
-      "exif:PixelYDimension": "3024",
-      "exif:ResolutionUnit": "2",
-      "exif:SceneCaptureType": "0",
-      "exif:SceneType": "1",
-      "exif:SensingMethod": "2",
-      "exif:ShutterSpeedValue": "92954/9913",
-      "exif:Software": "13.2.3",
-      "exif:SubjectArea": "1779, 1236, 753, 756",
-      "exif:SubSecTimeDigitized": "621",
-      "exif:SubSecTimeOriginal": "621",
-      "exif:WhiteBalance": "0",
-      "exif:XResolution": "72/1",
-      "exif:YCbCrPositioning": "1",
-      "exif:YResolution": "72/1",
-      "icc:copyright": "Copyright Apple Inc., 2017",
-      "icc:description": "Display P3",
-      "signature": "8e53b1db12e7abc15aa6752c07709f543720df9c7add54d0dbc99f1b3a5a63c0"
-    },
-    "profiles": {
-      "exif": {
-        "length": 2226
-      },
-      "icc": {
-        "length": 548
-      }
-    },
-    "tainted": false,
-    "filesize": "1017540B",
-    "numberPixels": "12.1928M",
-    "pixelsPerSecond": "2.94989MB",
-    "userTime": "9.780u",
-    "elapsedTime": "0:05.133",
-    "version": "/usr/local/Cellar/imagemagick/7.0.9-10/share/doc/ImageMagick-7//index.html"
-  }
-}
-,
-{
-  "image": {
-    "name": "json:",
-    "baseName": "test - 4.heic",
+    "baseName": "test-3.heic",
     "format": "HEIC",
     "formatDescription": "HEIC",
     "mimeType": "image/x-heic",
@@ -706,13 +498,13 @@
     },
     "dispose": "Undefined",
     "iterations": 0,
-    "scene": 3,
-    "scenes": 4,
+    "scene": 2,
+    "scenes": 3,
     "compression": "Undefined",
     "orientation": "TopLeft",
     "properties": {
-      "date:create": "2019-12-26T04:35:30+00:00",
-      "date:modify": "2019-12-26T04:30:50+00:00",
+      "date:create": "2019-12-30T03:37:06+00:00",
+      "date:modify": "2019-12-30T01:04:27+00:00",
       "exif:ApertureValue": "54823/32325",
       "exif:BrightnessValue": "52607/8220",
       "exif:ColorSpace": "65535",
@@ -757,11 +549,9 @@
       "exif:OffsetTime": "-08:00",
       "exif:OffsetTimeDigitized": "-08:00",
       "exif:OffsetTimeOriginal": "-08:00",
-      "exif:Orientation": "6",
       "exif:PhotographicSensitivity": "20",
       "exif:PixelXDimension": "4032",
       "exif:PixelYDimension": "3024",
-      "exif:ResolutionUnit": "2",
       "exif:SceneCaptureType": "0",
       "exif:SceneType": "1",
       "exif:SensingMethod": "2",
@@ -771,9 +561,7 @@
       "exif:SubSecTimeDigitized": "035",
       "exif:SubSecTimeOriginal": "035",
       "exif:WhiteBalance": "0",
-      "exif:XResolution": "72/1",
       "exif:YCbCrPositioning": "1",
-      "exif:YResolution": "72/1",
       "icc:copyright": "Copyright Apple Inc., 2017",
       "icc:description": "Display P3",
       "signature": "d111a785578ae01d520e09525c146eb4f8c7217570750847c9eb578765647ad7"
@@ -789,10 +577,10 @@
     "tainted": false,
     "filesize": "1017540B",
     "numberPixels": "12.1928M",
-    "pixelsPerSecond": "2.28755MB",
-    "userTime": "10.740u",
-    "elapsedTime": "0:06.330",
-    "version": "/usr/local/Cellar/imagemagick/7.0.9-10/share/doc/ImageMagick-7//index.html"
+    "pixelsPerSecond": "3.31798MB",
+    "userTime": "7.560u",
+    "elapsedTime": "0:04.674",
+    "version": "/usr/local/Cellar/imagemagick/7.0.9-12/share/doc/ImageMagick-7//index.html"
   }
 }
 ]

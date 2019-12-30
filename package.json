@@ -1,23 +1,22 @@
 {
-  "name": "img-to-geojson",
-  "version": "1.0.0",
-  "description": "Parse images with exif metadata and convert to geojson objects",
-  "main": "parseCoords.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "exif",
-    "geojson",
-    "images",
-    "degrees",
-    "minutes",
-    "seconds",
-    "decimal",
-    "coordinates",
-    "latitude",
-    "longitude"
-  ],
-  "author": "Mrinalini Manandhar",
-  "license": "MIT"
+	"name": "img-to-geojson",
+	"version": "1.0.0",
+	"description": "Convert/resize heics to jpgs, extract image exif metadata and convert to geojson objects",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"exif",
+		"geojson",
+		"images",
+		"degrees",
+		"minutes",
+		"seconds",
+		"decimal",
+		"coordinates",
+		"latitude",
+		"longitude"
+	],
+	"author": "Mrinalini Manandhar",
+	"license": "MIT"
 }
