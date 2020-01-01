@@ -1,22 +1,27 @@
 {
-	"name": "img-to-geojson",
-	"version": "1.0.0",
-	"description": "Convert/resize heics to jpgs, extract image exif metadata and convert to geojson objects",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [
-		"exif",
-		"geojson",
-		"images",
-		"degrees",
-		"minutes",
-		"seconds",
-		"decimal",
-		"coordinates",
-		"latitude",
-		"longitude"
-	],
-	"author": "Mrinalini Manandhar",
-	"license": "MIT"
+  "name": "img-to-geojson",
+  "version": "1.0.0",
+  "description": "Convert/resize heics to jpgs, extract image exif metadata and convert to geojson objects",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --loglevel silent --write",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "exif",
+    "geojson",
+    "images",
+    "degrees",
+    "minutes",
+    "seconds",
+    "decimal",
+    "coordinates",
+    "latitude",
+    "longitude"
+  ],
+  "author": "Mrinalini Manandhar",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "1.19.1"
+  }
 }
