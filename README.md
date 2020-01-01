@@ -4,7 +4,7 @@
 
 A utility tool that extracts image exif data and parses the data to geoJson.
 
-Directory structure
+#### Directory structure
 
 ```bash
 img-to-geojson
@@ -33,4 +33,12 @@ img-to-geojson
 
 ```bash
 image-to-geojson:$ node index.js
+```
+
+### Options
+
+Pass `--format-name` as an option to format image names to lowercase.
+
+```bash
+image-to-geojson:$ node --format-name index.js
 ```
