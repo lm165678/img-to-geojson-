@@ -40,5 +40,23 @@ image-to-geojson:$ node index.js
 Pass `--format-name` as an option to format image names to lowercase.
 
 ```bash
-image-to-geojson:$ node --format-name index.js
+image-to-geojson:$ node index.js --format-name
+```
+
+Returned data
+
+```json
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.34567899999999, -123.4567899999999]
+    },
+    "properties": {
+      "name": "test.jpeg",
+      "dimensions": { "width": 1000, "height": 1000, "x": 0, "y": 0 }
+    }
+  }
+]
 ```

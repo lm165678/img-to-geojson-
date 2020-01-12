@@ -25,4 +25,14 @@ if (format === '--format-name') {
       console.error(data)
     })
   })
+} else {
+  const shellScript = exec('. ./img-to-geojson.sh')
+
+  shellScript.stdout.on('data', data => {
+    console.log(data)
+  })
+
+  shellScript.stderr.on('data', data => {
+    console.error(data)
+  })
 }
