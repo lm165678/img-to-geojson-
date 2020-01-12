@@ -5,10 +5,16 @@ const noLocation = [],
 function getExifJson(data) {
   const imagesData = []
   for (const obj of data) {
-    const image = obj.image
-
+    const image = obj.image,
+      width = image.geometry.width,
+      height = image.geometry.height,
+      orientation = width / height > 1 ? 'potrait' : 'landscape'
     if (!image.properties['exif:GPSLatitude']) {
-      noLocation.push({ name: image.baseName, geometry: image.geometry })
+      noLocation.push({
+        name: image.baseName,
+        geometry: image.geometry,
+        orientation
+      })
       continue
     }
 
@@ -18,14 +24,15 @@ function getExifJson(data) {
       GPSLatitudeRef: image.properties['exif:GPSLatitudeRef'],
       GPSLongitude: image.properties['exif:GPSLongitude'],
       GPSLongitudeRef: image.properties['exif:GPSLongitudeRef'],
-      geometry: image.geometry
+      geometry: image.geometry,
+      orientation
     }
     imagesData.push(imgData)
   }
   return imagesData
 }
 
-function createGeoJson(name, parsedLat, parsedLong, geometry) {
+function createGeoJson(name, parsedLat, parsedLong, geometry, orientation) {
   const coordinates = parsedLat && parsedLong ? [parsedLat, parsedLong] : []
   return {
     type: 'Feature',
@@ -35,7 +42,8 @@ function createGeoJson(name, parsedLat, parsedLong, geometry) {
     },
     properties: {
       name,
-      dimensions: geometry
+      dimensions: geometry,
+      orientation
     }
   }
 }
@@ -68,7 +76,8 @@ function ParseDMS(imageData) {
     imageData.name,
     parsedLat,
     parsedLong,
-    imageData.geometry
+    imageData.geometry,
+    imageData.orientation
   )
 }
 
@@ -87,14 +96,23 @@ for (const imgJson of getExifJson(data)) {
     longitude: imgJson.GPSLongitude.split(','),
     latDirection: imgJson.GPSLatitudeRef,
     longDirection: imgJson.GPSLongitudeRef,
-    geometry: imgJson.geometry
+    geometry: imgJson.geometry,
+    orientation: imgJson.orientation
   }
 
   geoJSON.push(ParseDMS(imageData))
 }
 
 for (const imgJson of noLocation) {
-  geoJSON.push(createGeoJson(imgJson.name, null, null, imgJson.geometry))
+  geoJSON.push(
+    createGeoJson(
+      imgJson.name,
+      null,
+      null,
+      imgJson.geometry,
+      imgJson.orientation
+    )
+  )
 }
 
 console.log(JSON.stringify(geoJSON))

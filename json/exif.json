@@ -114,8 +114,8 @@
       "compression": "Undefined",
       "orientation": "TopLeft",
       "properties": {
-        "date:create": "2020-01-01T20:36:45+00:00",
-        "date:modify": "2020-01-01T20:36:45+00:00",
+        "date:create": "2020-01-12T08:25:19+00:00",
+        "date:modify": "2020-01-12T07:48:57+00:00",
         "exif:ApertureValue": "54823/32325",
         "exif:BrightnessValue": "107731/9277",
         "exif:ColorSpace": "65535",
@@ -187,10 +187,10 @@
       "tainted": false,
       "filesize": "399548B",
       "numberPixels": "3.04819M",
-      "pixelsPerSecond": "7.12131MB",
-      "userTime": "2.940u",
-      "elapsedTime": "0:01.428",
-      "version": "/usr/local/Cellar/imagemagick/7.0.9-12/share/doc/ImageMagick-7//index.html"
+      "pixelsPerSecond": "7.07505MB",
+      "userTime": "3.050u",
+      "elapsedTime": "0:01.430",
+      "version": "/usr/local/Cellar/imagemagick/7.0.9-13/share/doc/ImageMagick-7//index.html"
     }
   },
   {
@@ -308,8 +308,8 @@
       "compression": "Undefined",
       "orientation": "TopLeft",
       "properties": {
-        "date:create": "2020-01-01T20:36:56+00:00",
-        "date:modify": "2020-01-01T20:36:56+00:00",
+        "date:create": "2020-01-12T08:25:19+00:00",
+        "date:modify": "2020-01-12T07:48:57+00:00",
         "exif:ApertureValue": "54823/32325",
         "exif:BrightnessValue": "8729/12919",
         "exif:ColorSpace": "65535",
@@ -381,16 +381,16 @@
       "tainted": false,
       "filesize": "399548B",
       "numberPixels": "3.04819M",
-      "pixelsPerSecond": "4.16726MB",
-      "userTime": "2.850u",
-      "elapsedTime": "0:01.731",
-      "version": "/usr/local/Cellar/imagemagick/7.0.9-12/share/doc/ImageMagick-7//index.html"
+      "pixelsPerSecond": "4.09462MB",
+      "userTime": "2.960u",
+      "elapsedTime": "0:01.744",
+      "version": "/usr/local/Cellar/imagemagick/7.0.9-13/share/doc/ImageMagick-7//index.html"
     }
   },
   {
     "image": {
       "name": "json:",
-      "baseName": "test-3.HEIC",
+      "baseName": "test-3.heic",
       "format": "HEIC",
       "formatDescription": "HEIC",
       "mimeType": "image/x-heic",
@@ -502,8 +502,8 @@
       "compression": "Undefined",
       "orientation": "TopLeft",
       "properties": {
-        "date:create": "2020-01-01T20:37:04+00:00",
-        "date:modify": "2020-01-01T20:37:04+00:00",
+        "date:create": "2020-01-12T08:25:19+00:00",
+        "date:modify": "2020-01-12T07:48:57+00:00",
         "exif:ApertureValue": "54823/32325",
         "exif:BrightnessValue": "52607/8220",
         "exif:ColorSpace": "65535",
@@ -576,16 +576,16 @@
       "tainted": false,
       "filesize": "399548B",
       "numberPixels": "3.04819M",
-      "pixelsPerSecond": "2.76854MB",
-      "userTime": "3.990u",
-      "elapsedTime": "0:02.101",
-      "version": "/usr/local/Cellar/imagemagick/7.0.9-12/share/doc/ImageMagick-7//index.html"
+      "pixelsPerSecond": "2.66256MB",
+      "userTime": "3.900u",
+      "elapsedTime": "0:02.144",
+      "version": "/usr/local/Cellar/imagemagick/7.0.9-13/share/doc/ImageMagick-7//index.html"
     }
   },
   {
     "image": {
       "name": "json:",
-      "baseName": "test-4.JPEG",
+      "baseName": "test-4.jpeg",
       "format": "JPEG",
       "formatDescription": "JPEG",
       "mimeType": "image/jpeg",
@@ -698,8 +698,8 @@
       "quality": 95,
       "orientation": "TopLeft",
       "properties": {
-        "date:create": "2020-01-01T20:36:20+00:00",
-        "date:modify": "2020-01-01T20:36:20+00:00",
+        "date:create": "2020-01-12T08:25:19+00:00",
+        "date:modify": "2020-01-12T07:48:57+00:00",
         "exif:ApertureValue": "7983/3509",
         "exif:BrightnessValue": "8662/949",
         "exif:ColorSpace": "1",
@@ -764,10 +764,10 @@
       "tainted": false,
       "filesize": "399548B",
       "numberPixels": "3.04819M",
-      "pixelsPerSecond": "2.11422MB",
-      "userTime": "4.850u",
-      "elapsedTime": "0:02.441",
-      "version": "/usr/local/Cellar/imagemagick/7.0.9-12/share/doc/ImageMagick-7//index.html"
+      "pixelsPerSecond": "2.0417MB",
+      "userTime": "4.860u",
+      "elapsedTime": "0:02.492",
+      "version": "/usr/local/Cellar/imagemagick/7.0.9-13/share/doc/ImageMagick-7//index.html"
     }
   }
 ]
