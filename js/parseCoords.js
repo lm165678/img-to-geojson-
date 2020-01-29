@@ -33,7 +33,7 @@ function getExifJson(data) {
 }
 
 function createGeoJson(name, parsedLat, parsedLong, geometry, orientation) {
-  const coordinates = parsedLat && parsedLong ? [parsedLat, parsedLong] : []
+  const coordinates = parsedLat && parsedLong ? [parsedLong, parsedLat] : []
   return {
     type: 'Feature',
     geometry: {

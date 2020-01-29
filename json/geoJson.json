@@ -3,7 +3,7 @@
     "type": "Feature",
     "geometry": {
       "type": "Point",
-      "coordinates": [33.34551666666667, -115.730475]
+      "coordinates": [-115.730475, 33.34551666666667]
     },
     "properties": {
       "name": "test-1.heic",
@@ -15,7 +15,7 @@
     "type": "Feature",
     "geometry": {
       "type": "Point",
-      "coordinates": [37.37153888888889, -122.01088055555556]
+      "coordinates": [-122.01088055555556, 37.37153888888889]
     },
     "properties": {
       "name": "test-2.heic",
@@ -27,7 +27,7 @@
     "type": "Feature",
     "geometry": {
       "type": "Point",
-      "coordinates": [33.86752777777778, -117.76731111111111]
+      "coordinates": [-117.76731111111111, 33.86752777777778]
     },
     "properties": {
       "name": "test-3.heic",
@@ -39,7 +39,7 @@
     "type": "Feature",
     "geometry": { "type": "Point", "coordinates": [] },
     "properties": {
-      "name": "test-4.jpeg",
+      "name": "test-4.JPEG",
       "dimensions": { "width": 2016, "height": 1512, "x": 0, "y": 0 },
       "orientation": "potrait"
     }
